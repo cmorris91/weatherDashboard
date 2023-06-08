@@ -1,0 +1,47 @@
+* {
+    padding: 5px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ nav {
+     min-width: 100%;
+     background-color: rgb(59, 58, 58);
+     color: white;
+     margin: 0;
+ }
+ .navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    
+ }
+ 
+ #standby-msg {
+     text-align: center;
+     color: rgb(52, 71, 107);
+ }
+ 
+ .forecast-box {
+     margin: 5px;
+     color: white;
+     font-size: 18px;
+ }
+ 
+ #current-weather {
+     font-size: 25px;
+ }
+ 
+ .icon {
+     border-radius: 10px;
+ }
+ .list-item {
+     background-color: rgb(22 79 163 / 61%);
+     text-align: center;
+     margin: 5px;
+     border-radius: 5px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+     .navbar-brand {
+         font-size: 30px;
+     }
+ };
